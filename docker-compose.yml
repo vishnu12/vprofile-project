@@ -26,7 +26,7 @@ vpromq01:
     - RABBITMQ_DEFAULT_PASS=guest 
 
 
-vproapp:
+vproapplication:
     build:
       context: ./Docker-files/app
     image: vishnu007jr/vproapp
